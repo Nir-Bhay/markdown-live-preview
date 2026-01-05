@@ -43,3 +43,34 @@ export {
     selectImageFiles
 } from './file.js';
 export { scrollSync } from './scroll-sync.js';
+
+// Performance utilities
+export {
+    loadMermaid,
+    loadKaTeX,
+    loadHtml2Pdf,
+    loadDocx,
+    hasMermaidContent,
+    hasKaTeXContent,
+    preloadInBackground,
+    getLoadingStatus
+} from './lazy-loader.js';
+
+export {
+    initLazyImages,
+    compressImage,
+    convertToWebP,
+    generateBlurPlaceholder,
+    preloadImages,
+    supportsWebP,
+    getOptimalFormat
+} from './image-optimizer.js';
+
+export {
+    initPerformanceMonitor,
+    mark as perfMark,
+    measure as perfMeasure,
+    getMetrics,
+    getMemoryUsage,
+    checkPerformance
+} from './performance-monitor.js';
