@@ -33,6 +33,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
+    "terser": "^5.44.1",
     "vite": "^6.3.6"
   },
   "dependencies": {
